@@ -9,13 +9,6 @@
 
 #define NUM_LINES 28
 
-unsigned char * getValue(unsigned char *rline){
-
-	while(*rline != '(') rline++;
-	return rline;
-
-}
-
 int main(){
 
 	/*-------------------------
